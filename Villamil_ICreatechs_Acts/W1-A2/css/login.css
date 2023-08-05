@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+}
+h1{
+    margin-bottom: 1em;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #090446;
+
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card-container{
+    background-color: #786F52;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.login-card{
+    width: 500px;
+}
+.user-input,
+.password-input,
+.checkbox,
+.submit{
+    margin-bottom: 1em;
+}
+.user,
+.password{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 1px;
+}
+.user_name,
+.password_input{
+    width: 400px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 10px;
+    padding-left: 15px;
+    border-style: solid;
+}
+.user_name::placeholder,
+.password_input::placeholder{
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.check,
+.remember{
+    vertical-align: middle;
+    color: white;
+    margin-right: 2px;
+}
+.submit{
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FEB95F;
+    border: none;
+    color: #090446;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.15;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: #f5d4a9;
+}
+.submit:active{
+    background-color: #090446;
+    color: #ffffff;
+}
